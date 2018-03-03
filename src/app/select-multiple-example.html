@@ -1,0 +1,13 @@
+<mat-form-field>
+  <mat-select placeholder="Toppings" [formControl]="toppings" multiple [(ngModel)]="value">
+    <button mat-button (click)="selectAll()">ALL</button>
+    <button mat-button (click)="selectNone()">NONE</button>
+    <mat-divider></mat-divider>
+    <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+<!-- Copyright 2018 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
