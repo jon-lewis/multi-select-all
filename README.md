@@ -1,3 +1,9 @@
+# Demo
+
+https://angular-n11cgr.stackblitz.io
+
+![multi-select-all](multi-select-all.gif)
+
 # angular-n11cgr
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
